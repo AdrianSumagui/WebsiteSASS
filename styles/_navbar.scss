@@ -1,5 +1,12 @@
 @import 'colors';
 
+%align-center {
+
+    display: flex;
+    align-items: center;
+
+}
+
 .navbar {
 
     background: $light;
@@ -10,4 +17,22 @@
     z-index: 10;
     position: relative;
 
+    .navbar__logo {
+
+        color: $dark;
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 2rem;
+        margin-left: 24px;
+        @extend %align-center;
+    
+    }
+
+    .navbar__bars {
+
+        opacity: 0;
+
+    }
+
 }
+
