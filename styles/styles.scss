@@ -104,7 +104,6 @@
             padding: 14px 32px;
             border: none;
             border-radius: 4px;
-            color: $light;
             margin-top: 2rem;
             cursor: pointer;
             position: relative;
@@ -118,6 +117,7 @@
             position: relative;
             z-index: 2;
             color: $light;
+            background-color: $green;
             text-decoration: none;
 
         }
@@ -133,7 +133,6 @@
             background: $red;
             transition: all 0.3s;
             border-radius: 4px;
-
 
         }
 

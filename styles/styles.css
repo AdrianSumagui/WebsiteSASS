@@ -183,7 +183,6 @@
   padding: 14px 32px;
   border: none;
   border-radius: 4px;
-  color: #f7f7f7;
   margin-top: 2rem;
   cursor: pointer;
   position: relative;
@@ -196,6 +195,7 @@
   position: relative;
   z-index: 2;
   color: #f7f7f7;
+  background-color: #00cc66;
   text-decoration: none;
 }
 
