@@ -199,21 +199,12 @@
   text-decoration: none;
 }
 
-.hero__container--btn:after {
-  position: absolute;
-  content: '';
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 100%;
-  background: #fb4b4e;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  border-radius: 4px;
-}
-
-.hero__container--btn:hover:after {
-  width: 100%;
+.hero__container--btn:hover {
+  background-color: #00cc66;
+  -webkit-box-shadow: 0 6px #fb4b4e;
+          box-shadow: 0 6px #fb4b4e;
+  -webkit-transform: translateY(12px);
+          transform: translateY(12px);
 }
 
 .hero__container--right {

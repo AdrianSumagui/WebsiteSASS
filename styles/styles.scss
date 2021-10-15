@@ -1,5 +1,6 @@
 @import 'navbar';
 @import 'media-queries';
+@import 'colors';
 
 * {
 
@@ -122,25 +123,15 @@
 
         }
 
-        &--btn:after {
+        &--btn:hover {
 
-            position: absolute;
-            content: '';
-            top: 0;
-            left: 0;
-            width: 0;
-            height: 100%;
-            background: $red;
-            transition: all 0.3s;
-            border-radius: 4px;
+            background-color: $green;
+            box-shadow: 0 6px $red;
+            transform: translateY(12px);
 
         }
 
-        &--btn:hover:after {
 
-            width: 100%;
-
-        }
 
         &--right {
 
