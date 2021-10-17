@@ -215,4 +215,14 @@
   height: 100%;
   width: 100%;
 }
+
+.hero h1, h2 {
+  text-align: center;
+}
+
+.hero p {
+  text-align: justify;
+  margin: 50px;
+  font-size: 1.1rem;
+}
 /*# sourceMappingURL=styles.css.map */
