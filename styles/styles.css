@@ -69,6 +69,8 @@
   color: #00cc66;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  -webkit-transform: translateY(5px);
+          transform: translateY(5px);
 }
 
 .navbar__menu #button {
@@ -154,7 +156,7 @@
 }
 
 .hero__container--left h2 {
-  font-size: 4rem;
+  font-size: 3rem;
   color: #222121;
 }
 
@@ -216,13 +218,68 @@
   width: 100%;
 }
 
-.hero h1, h2 {
+.hero__text h1 {
+  text-align: center;
+  margin-top: 200px;
+  color: #00cc66;
+}
+
+.hero__text h2 {
   text-align: center;
 }
 
-.hero p {
+.hero__text__container {
+  width: 100%;
+  max-width: 1200px;
+  height: 430px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+}
+
+.hero__text__container--card {
+  width: 330px;
+  height: 430px;
+  border-radius: 8px;
+  -webkit-box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+          box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 70px;
+  text-align: center;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+.hero__text__container--card:hover {
+  -webkit-transform: translateY(-15px);
+          transform: translateY(-15px);
+  -webkit-box-shadow: 4px 12px 16px rgba(0, 0, 0, 0.2);
+          box-shadow: 4px 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.hero__text__container--card img {
+  width: 200;
+  height: 150px;
+}
+
+.hero__text__container--card h4 {
+  font-weight: 600;
+}
+
+.hero__text__container--card a {
+  font-weight: 500;
+  text-decoration: underline;
+  color: #00cc66;
+}
+
+.hero__text__container--card p {
   text-align: justify;
-  margin: 50px;
-  font-size: 1.1rem;
+  margin: 25px;
 }
 /*# sourceMappingURL=styles.css.map */
