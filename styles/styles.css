@@ -220,11 +220,14 @@
 
 .hero__text h1 {
   text-align: center;
-  margin-top: 200px;
   color: #00cc66;
 }
 
 .hero__text h2 {
+  text-align: center;
+}
+
+.hero__text h3 {
   text-align: center;
 }
 
@@ -245,7 +248,7 @@
 
 .hero__text__container--card {
   width: 330px;
-  height: 430px;
+  height: 460px;
   border-radius: 8px;
   -webkit-box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
           box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
@@ -270,6 +273,7 @@
 
 .hero__text__container--card h4 {
   font-weight: 600;
+  text-align: center;
 }
 
 .hero__text__container--card a {
