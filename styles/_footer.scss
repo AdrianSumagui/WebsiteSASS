@@ -1,0 +1,31 @@
+@import 'colors';
+@import 'media-queries';
+
+.footer {
+
+    padding: 10px;
+    text-align: center;
+    background: $green;
+
+    &--links {
+
+        background: $green;
+        color: $light;
+
+    }
+
+    &--text{
+
+        background: $green;
+        text-align: right;
+        color: $light;
+
+    }
+
+    &--text b {
+
+        background: $green;
+
+    }
+
+}
