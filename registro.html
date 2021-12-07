@@ -34,64 +34,44 @@
 
     <div class="hero">
 
-        <div class="hero__container">
-            <div class="hero__container--left">
-                <h1>¿Tú móvil está en sus últimas?</h1>
-                <h2>¡Nosotros te encontraremos su mejor sustituto!</h2>
+        <div>
+            <form action="http://www.cursos-diseno.es/mi-mail.php" method="post" autocomplete="off">
+            <table>
+                <tr>
+                    <td>Nombre*</td>
+                    <td><input type="text" name="Nombre" required></td>
+                </tr>
+                <tr>
+                    <td>Apellidos</td>
+                    <td><input type="text" name="Apellidos"></td>
+                </tr>
+                <tr>
+                    <td>Teléfono*</td>
+                    <td><input type="tel" name="Teléfono" placeholder="+34 91 234 56 48" required></td>
+                </tr>
+                <tr>
+                    <td>Correo Electrónico*</td>
+                    <td><input type="email" name="Correo Electrónico" required></td>
+                </tr>
+                <tr>
+                    <input type="hidden" name="destinatario" value="adrian_sumagui_apps1ma1920@cev.com">
+                </tr>
+                <tr>
+                    <td>Mensaje*</td>
+                    <td><textarea name="Mensaje" rows="5" required></textarea></td>
+                </tr>
+                <tr>
+                    <td class="condiciones"><b>Acepto las condiciones*</b></td>
+                    <td><input type="checkbox" name="Condiciones" value="Condiciones aceptadas" required></td>
+                </tr>
+        
+            </table>
+            
+            <br> <br>
+            
+            <input type="submit" value="Enviar" class="botonEnviar">
+            </form>
             </div>
-            <div class="hero__container--right">
-                <img src="images/roto.png" alt="Móvil Roto" class="hero__container--img">
-            </div>
-        </div>
-
-        <div class="hero__text">
-
-            <h1>¡Estos son algunos móviles frescos que tenemos en oferta!*</h1>
-
-            <h2>Contamos con un amplio catálogo de móviles calidad-precio. :D</h2>
-            <br>
-            <h3>Ofertas disponibles hasta el 30/11/2021</h3>
-
-            <div class="hero__text__container">
-                <div class="hero__text__container--card">
-                    <img src="images/s20.png">
-                    <h4>Samsung Galaxy S20 FE 5G</h4>
-                    <p>Disfruta de un móvil de gama alta a un precio asequible con 3 cámaras y pantalla de 120 Hz. Tecnología avanzada. Sensor dual pixel. Modo noche. 6 colores disponibles.</p>
-                    <h4>Precio: 9€/mes - 24 plazos</h4>
-                    <br>
-                    <a href="/tarifas.html">Añadir Plan</a>
-                </div>
-
-
-
-                <div class="hero__text__container--card">
-                    <img src="images/mi11.png">
-                    <h4>Xiaomi Mi 11 5G 256GB</h4>
-                    <p>Un rendimiento de cine con cámara cinematográfica de 108 MP, sonido por Harman Kardon, pantalla WQHD+ de 120 Hz y procesador Qualcomm Snapdragon 888.</p>
-                    <h4>Precio: 11€/mes - 24 plazos</h4>
-                    <br>
-                    <a href="/tarifas.html">Añadir Plan</a>
-                </div>
-
-
-
-                <div class="hero__text__container--card">
-                    <img src="images/note10s.png">
-                    <h4>Xiaomi Redmi Note10S 128GB</h4>
-                    <p>Es un móvil de gama media perfectamente potenciado que cuenta con una cámara cuádruple de 64 MP/48 MP y una pantalla AMOLED.</p>
-                    <h4>Precio: 1€/mes - 24 plazos**</h4>
-                    <br>
-                    <a href="/tarifas.html">Añadir Plan</a>
-                </div>
-
-
-            </div>
-
-            <p>* Regístrate para ver nuestro catálogo completo. <br>
-                ** Precio exclusivo con el Plan Inifnite GB.
-            </p>
-
-        </div>
 
 
     </div>
