@@ -89,6 +89,14 @@
   transition: all 0.3s ease;
 }
 
+.form td:first-child {
+  text-align: right;
+}
+
+.form textarea {
+  resize: none;
+}
+
 .footer {
   padding: 10px;
   text-align: center;
