@@ -1,23 +1,43 @@
 @import 'colors';
 @import 'media-queries';
 
+.div-form {
 
+    padding: 150px;
+    display: flex;
+    justify-content: center;
+
+}
 
 
 .form {
 
+    td {
+
+        padding: 12px;
+
+    }
+
     td:first-child {
 
-        text-align: right;
+        text-align: left;
 
     }
 
+    input {
 
-    textarea {
-
-        resize: none;
-
+        border: 1px $green solid;
+        border-radius: 5px;
+        font-size: 1rem;
+        color: $dark
+        
     }
+
+    :focus {
+        outline-color: $red;
+    }
+
+
 
 
 

@@ -89,16 +89,37 @@
   transition: all 0.3s ease;
 }
 
-.form td:first-child {
-  text-align: right;
+.div-form {
+  padding: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.form textarea {
-  resize: none;
+.form td {
+  padding: 12px;
+}
+
+.form td:first-child {
+  text-align: left;
+}
+
+.form input {
+  border: 1px #00cc66 solid;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #222121;
+}
+
+.form :focus {
+  outline-color: #fb4b4e;
 }
 
 .footer {
-  padding: 10px;
+  padding: 25px;
   text-align: center;
   background: #00cc66;
 }
