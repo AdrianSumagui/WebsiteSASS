@@ -146,6 +146,20 @@
             height: 100%;
             width: 100%;
 
+            @include tablet {
+
+                height: 50%;
+                width: 50%;
+
+            }
+
+            @include mobile {
+
+                height: 100%;
+                width: 100%;
+
+            }
+
         }
 
 
@@ -183,11 +197,18 @@
 
         width: 100%;
         max-width: 1200px;
-        height: 430px;
+        height: 500px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         margin: auto;
+
+        @include tablet {
+
+            height: 1000px;
+
+        }
+
 
         // Móviles
 
