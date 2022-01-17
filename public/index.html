@@ -17,7 +17,14 @@
         <a href="./index.html" class="navbar__logo">BEEBOP TELCO</a>
         <div class="navbar__bars">
             
-            <i class="fas fa-bars"></i>
+            <i class="fas fa-bars" onclick="toggleMenuMobile(this)"></i>
+            <ul class="mobile--menu">
+                <li><a href="./index.html" class="navbar__menu--links"><u>Inicio</u></a></li>
+                <li><a href="./productos.html" class="navbar__menu--links">Productos</a></li>
+                <li><a href="./tarifas.html" class="navbar__menu--links">Tarifas y Planes</a></li>
+                <li><a href="./registro.html" class="navbar__menu--links" id="button">Registrarse</a></li>
+            </ul>
+
 
         </div>
 
@@ -68,6 +75,7 @@
 
     <div> Iconos diseñados por <a href="https://www.freepik.com" title="Freepik"> Freepik </a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es'</a></div>
 
-    
+    <script src="index.js"></script>
+
 </body>
 </html>

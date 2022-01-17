@@ -41,6 +41,26 @@
             right: 20px;
             font-size: 2rem;
 
+            .open .mobile--menu {
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-start;
+
+            }
+
+            .mobile--menu {
+
+                display: none;
+                position: absolute;
+                top: 50px;
+                left: 0;
+                height: calc(100vh-50px);
+                width: 100%;
+
+            }
+
         }
 
     }
