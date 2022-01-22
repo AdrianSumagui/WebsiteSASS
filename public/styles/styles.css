@@ -29,41 +29,17 @@
   margin-left: 24px;
 }
 
-.navbar__bars {
-  opacity: 0;
-}
-
 @media screen and (max-width: 768px) {
-  .navbar__bars {
+  .navbar #mobile-menu {
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    top: 20%;
+    right: 5%;
     color: #222121;
-    opacity: 1;
-    position: absolute;
-    top: 22px;
-    right: 20px;
-    font-size: 2rem;
-  }
-  .navbar__bars .open .mobile--menu {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-  }
-  .navbar__bars .mobile--menu {
-    display: none;
-    position: absolute;
-    top: 50px;
-    left: 0;
-    height: calc(100vh-50px);
-    width: 100%;
   }
 }
 
@@ -75,7 +51,18 @@
 
 @media screen and (max-width: 768px) {
   .navbar__menu {
-    display: none;
+    display: -ms-grid;
+    display: grid;
+    grid-template: auto;
+    background: #f7f7f7;
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    /*left: -100%;
+            opacity: 0;*/
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
   }
 }
 
@@ -96,8 +83,26 @@
           transform: translateY(5px);
 }
 
+@media screen and (max-width: 768px) {
+  .navbar__menu--links {
+    color: #00cc66;
+    text-align: center;
+    line-height: 60px;
+    width: 100%;
+    display: table;
+    background-color: #222121;
+  }
+  .navbar__menu--links:hover {
+    color: #222121;
+    background: #00cc66;
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
 .navbar__menu #button {
   padding: 12px 24px;
+  text-decoration: none;
   border: none;
   outline: none;
   border-radius: 4px;
@@ -110,6 +115,29 @@
   background: #fb4b4e;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar__menu #button {
+    padding: 12px 24px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    border-radius: 0px;
+    background: #00cc66;
+    margin: 0px;
+    color: #f7f7f7;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar__menu.active {
+    background: #00cc66;
+    left: 0;
+    opacity: 1;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
 }
 
 .div-form {

@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/styles.css"> 
-    <title>SASS Simple Website</title>
+    <title>Inicio</title>
 </head>
 <body>
 
@@ -15,27 +14,21 @@
     <nav class="navbar">
 
         <a href="./index.html" class="navbar__logo">BEEBOP TELCO</a>
-        <div class="navbar__bars">
-            
-            <i class="fas fa-bars" onclick="toggleMenuMobile(this)"></i>
-            <ul class="mobile--menu">
-                <li><a href="./index.html" class="navbar__menu--links"><u>Inicio</u></a></li>
-                <li><a href="./productos.html" class="navbar__menu--links">Productos</a></li>
-                <li><a href="./tarifas.html" class="navbar__menu--links">Tarifas y Planes</a></li>
-                <li><a href="./registro.html" class="navbar__menu--links" id="button">Registrarse</a></li>
-            </ul>
 
+        <div class="navbar__toggle" id="mobile-menu">
+
+            <span class="navbar__toogle--bar"></span>
+            <span class="navbar__toogle--bar"></span>
+            <span class="navbar__toogle--bar"></span>
 
         </div>
-
-        <div class="navbar__menu">
-
-            <a href="./index.html" class="navbar__menu--links"><u>Inicio</u></a>
-            <a href="./productos.html" class="navbar__menu--links">Productos</a>
-            <a href="./tarifas.html" class="navbar__menu--links">Tarifas y Planes</a>
-            <a href="./registro.html" class="navbar__menu--links" id="button">Registrarse</a>
-
-        </div>
+        
+        <ul class="navbar__menu">
+            <li><a href="./index.html" class="navbar__menu--links"><u>Inicio</u></a></li>
+            <li><a href="./productos.html" class="navbar__menu--links">Productos</a></li>
+            <li><a href="./tarifas.html" class="navbar__menu--links">Tarifas y Planes</a></li>
+            <li><a href="./registro.html" class="navbar__menu--links" id="button">Registrarse</a></li>
+        </ul>
 
     </nav>
 
