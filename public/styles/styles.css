@@ -130,16 +130,6 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-  .navbar__menu.active {
-    background: #00cc66;
-    left: 0;
-    opacity: 1;
-    -webkit-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-  }
-}
-
 .div-form {
   padding: 150px;
   display: -webkit-box;
